@@ -6,19 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer ></script>
-    <title>Rick Morty</title>
+    <link rel="shortcut icon" href="quiz.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Rick and Morty</title>
 </head>
 <body>
-    <h1>QUIZZ RICK MORTY</h1>
+    <h1>QUIZZ RICK AND MORTY</h1>
     <div id="parte1">
         <h2>Adivinhe o nome do personagem</h2>
-        <input placeholder="Digite o nome aqui" type="text">
-        <img src="" alt="imagem aleatoria">
-        <button id="iniciar">Iniciar</button>
-        <button id="tentar">Tentar</button>
-    </div>
-    <div id="pontuacao">
-        <h3>Pontuação</h3>
+        <img id="gif" src="https://thumbs.gfycat.com/CheerfulDistinctFlycatcher-size_restricted.gif" alt="">
+        <input autofocus autocomplete="false" placeholder="Digite o nome aqui" type="text">
+        <img src="" alt="">
+        <aside>
+            <div>
+                <button id="iniciar">Iniciar</button>
+                <button id="tentar">Validar</button>
+            </div>
+            <div class="pontuacao">
+                <h3>Pontuação:</h3>
+                <p id="pontos"></p>
+            </div>
+        </aside>
     </div>
 </body>
-</html>
+</html> 
